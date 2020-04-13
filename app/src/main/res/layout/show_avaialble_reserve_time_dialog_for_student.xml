@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_for_dialog_title_in_std_available_time_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:fontFamily="@font/juache"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="ooo 선생님 예약 가능한 수업 리스트" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/juache"
+        android:textColor="#E60909"
+        android:text="클릭시  예약 가능!\n예약한 시간은 검정색 배경으로 바뀝니다." />
+
+    <TextView
+        android:id="@+id/ment_for_no_available_time_txt"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="해당 선생님은 예약 가능한  \n\n날짜가 없으십니다."
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_for_available_time_list_for_student"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxHeight="250dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_btn_for_std_reserve_time_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/juache"
+            android:background="@drawable/roundbuttonforteacher"
+            android:text="cancel" />
+
+        <Button
+            android:id="@+id/ok_btn_for_std_reserve_time_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/juache"
+            android:text="ok" />
+
+    </LinearLayout>
+</LinearLayout>

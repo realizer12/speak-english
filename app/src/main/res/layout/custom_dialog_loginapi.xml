@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#1863c5"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:textColor="#FCFCFC"
+        android:fontFamily="@font/juache"
+        android:textSize="20sp"
+        android:text="@string/custom_dialog_loginapi_ment"
+        />
+
+    <EditText
+        android:id="@+id/editText_for_englishname_loginapi"
+        android:layout_width="281dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#F8F6F6"
+        android:ems="10"
+        android:fontFamily="@font/juache"
+        android:hint="@string/write_english_name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="31dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+        <Button
+            android:id="@+id/btn_for_cancel_loginapi"
+            android:layout_width="121dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/juache"
+            android:text="@string/customdialog_cancel"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+        <Button
+            android:id="@+id/btn_for_ok_loginapi"
+            android:layout_width="119dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="#ed8369"
+            android:fontFamily="@font/juache"
+            android:text="@string/customdialog_yes"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+    </LinearLayout>
+</LinearLayout>

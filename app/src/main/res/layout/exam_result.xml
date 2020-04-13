@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView529"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="테스트가 끝났습니다 다시 보시려면 \nYes를  그만 하시려면 No 를 눌러주세요!"
+        android:textColor="#F33A3A"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/wrong_count_txt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="틀린 개수는  2개 입니다. "
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5222"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="아래는 틀린 단어들 입니다.\n 꼭 복습하세요 !!"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView52212"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="oo 단어 클릭시 뜻이 보입니다.oo"
+        android:textColor="#F33A3A"
+        android:textSize="15sp" />
+    <LinearLayout
+        android:id="@+id/exam_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:scrollbars="vertical"
+        android:orientation="vertical" />
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout_chatting_room_activity"
+    android:layout_width="match_parent"
+    android:background="#1863c4"
+    android:layout_height="match_parent"
+    android:onClick="hidekeyboard"
+    android:orientation="vertical">
+    <!--android:onClick="hidekeyboard"-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/showingchatrecyvlerview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarforchattingroom"
+        app:layout_constraintVertical_bias="0.0">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="362dp"
+        android:minHeight="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#A5A4A3"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnforsendfile"
+            android:layout_width="41dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#0000"
+            android:layout_marginBottom="4dp"
+            app:srcCompat="@drawable/addclassblack" />
+
+        <EditText
+            android:id="@+id/edittextforchat"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="#E9DFDF"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:padding="7dp"
+            android:maxLines="5"
+            android:fontFamily="@font/juache"
+            android:hint="insert your chat here....."
+            android:inputType="textMultiLine"
+            android:minHeight="35dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+            <Button
+                android:id="@+id/btnforsendchat"
+                android:layout_width="70dp"
+                android:layout_height="41dp"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="1dp"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@font/juache"
+                android:text="send"
+                android:visibility="visible"
+                android:textSize="13sp" />
+
+
+
+    </LinearLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarforchattingroom"
+        android:layout_width="365dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarforchattingroom"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarforchattingroom"
+        app:layout_constraintTop_toTopOf="@+id/toolbarforchattingroom">
+
+        <TextView
+            android:id="@+id/room_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:textColor="#FFFEFE"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/chatclientcounttextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:text="(1)"
+            android:textColor="#B9B4B4"
+            android:textSize="17sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

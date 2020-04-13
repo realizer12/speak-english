@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="381dp"
+        android:layout_height="45dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_for_my_dictionary"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/juache"
+            android:text="My Dictionary"
+            android:textColor="#FAF8F8"
+            android:textSize="23sp"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar_for_my_dictionary"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar_for_my_dictionary"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="@+id/toolbar_for_my_dictionary"
+            app:layout_constraintTop_toTopOf="@+id/toolbar_for_my_dictionary"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imgView_for_exam"
+            android:layout_width="41dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/toolbar_for_my_dictionary"
+            app:layout_constraintHorizontal_bias="0.923"
+            app:layout_constraintStart_toEndOf="@+id/textView51"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/examicon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#DFE788"
+            android:background="@drawable/border"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:text="Word"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="#EAA2A2"
+            android:background="@drawable/border"
+            android:fontFamily="@font/juache"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="Meaning"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_for_mydictionary"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        />
+</LinearLayout>

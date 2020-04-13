@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_for_select_charging_point_amount"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@drawable/myclass" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:fontFamily="@font/juache"
+        android:textSize="22sp"
+        android:textColor="#ffff"
+        android:padding="5dp"
+        android:text="Select charging Point"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar_for_select_charging_point_amount"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar_for_select_charging_point_amount"
+        app:layout_constraintStart_toStartOf="@+id/toolbar_for_select_charging_point_amount"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_for_select_charging_point_amount" />
+
+    <TextView
+        android:id="@+id/explain_txt_for_point_charging"
+        android:layout_width="297dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="수업 하나 듣는데 소요되는 포인트는  10p 입니다.\n
+10 point 는 현금으로 100원 입니다\n \n아래 구매 포인트 개수로 구매하려는 point양을 \n정하세요!   개수 1개당  10 point 입니다"
+        android:textColor="#000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_for_select_charging_point_amount" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="287dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explain_txt_for_point_charging">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/juache"
+                android:text="현재  내가 가진  포인트 :"
+                android:textColor="#ffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_for_std_present_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/juache"
+                android:text="0 Point"
+                android:textColor="#ffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView693"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/juache"
+                android:text="현재 구매 하려는 포인트 :"
+                android:textColor="#ffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_for_buy_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/juache"
+                android:text="0 Point"
+                android:textColor="#ffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6943"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/juache"
+                android:text="포인트 구매에  사용되는 비용 :"
+                android:textColor="#ffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_for_show_cash_amount_for_buy_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/juache"
+                android:text="0 원"
+                android:textColor="#ffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="7dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView69d43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/juache"
+                android:text="구매 point 개수 :"
+
+                android:textColor="#ffff"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btn_for_plus"
+                android:layout_width="43dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/juache"
+                android:text="+"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edittxt_for_point_buy_amount"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/juache"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="0"
+                android:textColor="#ffff" />
+
+            <Button
+                android:id="@+id/btn_for_minus"
+                android:layout_width="43dp"
+                android:layout_height="35dp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/juache"
+                android:text="-"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_for_buy_point"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/juache"
+        android:text="결제 하기"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.31" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

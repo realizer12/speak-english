@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/chatting_room_layout"
+        android:layout_width="match_parent"
+        android:background="@drawable/roundedittext"
+        android:gravity="center"
+        android:layout_height="80dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="12dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#1863c5"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/chatting_profile_image"
+                android:layout_width="61dp"
+                android:layout_height="63dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/sayhellologowhite"
+                android:layout_gravity="center"
+               />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chatting_room_namelist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/juache"
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/chatting_room_number"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="@font/juache"
+                    android:gravity="center_vertical"
+                    android:textColor="#7A7878" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/chatting_recent_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/juache"
+                    android:gravity="bottom"
+                    android:textColor="#7A7878"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chatting_recent_message"
+                    android:layout_width="244dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/juache"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textSize="15sp"
+                    android:textColor="#7A7878"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/chatting_unread_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:background="@drawable/roundimage"
+                    android:backgroundTint="#EB0A0A"
+                    android:fontFamily="@font/juache"
+                    android:gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:minWidth="22dp"
+                    android:maxWidth="35dp"
+                    android:padding="5dp"
+                    android:text="1"
+                    android:textColor="#FAF7F7"
+                    android:textSize="11sp"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

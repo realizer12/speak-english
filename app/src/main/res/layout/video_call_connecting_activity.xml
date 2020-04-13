@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgview_for_other_party"
+        android:layout_width="115dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kakao_default_profile_image" />
+
+    <TextView
+        android:id="@+id/video_call_explain_txt"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="수업 준비 중입니다 \n\n   조금만 기다려주세요 ! "
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgview_for_other_party" />
+
+    <TextView
+        android:id="@+id/other_party_name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="선생님 이름 들어감."
+        android:textColor="#0EEB17"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imgview_for_other_party"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_call_explain_txt">
+
+        <Button
+            android:id="@+id/btn_for_cancel_class"
+            android:layout_width="240dp"
+            android:layout_height="61dp"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="#E98D8D"
+            android:fontFamily="@font/juache"
+            android:text="수업 취소하기"
+            android:textColor="#000"
+            android:textSize="22sp"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/container_for_teacher_callee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_for_accept"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#009688"
+                android:fontFamily="@font/juache"
+                android:text="ACCEPT"
+                android:textColor="#130101" />
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_for_refuse"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#F57676"
+                android:fontFamily="@font/juache"
+                android:text="REFUSE"
+                android:textColor="#000" />
+
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/changestudentinfo"
+            android:icon="@drawable/sayhellologoblack"
+            android:title="내 정보 수정" />
+        <item
+            android:id="@+id/student_my_dictionary"
+            android:icon="@drawable/sayhellologoblack"
+            android:title="내 단어장" />
+        <item
+            android:id="@+id/student_get_word_ocr"
+            android:icon="@drawable/sayhellologoblack"
+            android:title="사진속 영어 단어 추출하기" />
+    </group>
+
+    <item android:title="설정">
+        <menu>
+            <item
+                android:id="@+id/studentlogout"
+                android:icon="@drawable/sayhellologoblack"
+                android:title="로그아웃" />
+
+        </menu>
+    </item>
+
+</menu>

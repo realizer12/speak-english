@@ -1,0 +1,980 @@
+[
+    {
+        "name": "select country",
+        "code": "AF",
+        "nativeorglobal": "nothing"
+     },
+    {
+        "name": "Afghanistan",
+        "code": "AF"
+
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Åland Islands",
+        "code": "AX"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Albania",
+        "code": "AL"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Algeria",
+        "code": "DZ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "American Samoa",
+        "code": "AS"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "AndorrA",
+        "code": "AD"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Angola",
+        "code": "AO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Anguilla",
+        "code": "AI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Antarctica",
+        "code": "AQ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Antigua and Barbuda",
+        "code": "AG"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Argentina",
+        "code": "AR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Armenia",
+        "code": "AM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Aruba",
+        "code": "AW"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Australia",
+        "code": "AU"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Austria",
+        "code": "AT"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Azerbaijan",
+        "code": "AZ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Bahamas",
+        "code": "BS"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Bahrain",
+        "code": "BH"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Bangladesh",
+        "code": "BD"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Barbados",
+        "code": "BB"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Belarus",
+        "code": "BY"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Belgium",
+        "code": "BE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Belize",
+        "code": "BZ"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Benin",
+        "code": "BJ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Bermuda",
+        "code": "BM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Bhutan",
+        "code": "BT"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Bolivia",
+        "code": "BO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Bosnia and Herzegovina",
+        "code": "BA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Botswana",
+        "code": "BW"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Bouvet Island",
+        "code": "BV"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Brazil",
+        "code": "BR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "British Indian Ocean Territory",
+        "code": "IO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Brunei Darussalam",
+        "code": "BN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Bulgaria",
+        "code": "BG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Burkina Faso",
+        "code": "BF"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Burundi",
+        "code": "BI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Cambodia",
+        "code": "KH"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Cameroon",
+        "code": "CM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Canada",
+        "code": "CA"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Cape Verde",
+        "code": "CV"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Cayman Islands",
+        "code": "KY"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Central African Republic",
+        "code": "CF"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Chad",
+        "code": "TD"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Chile",
+        "code": "CL"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "China",
+        "code": "CN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Christmas Island",
+        "code": "CX"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Cocos (Keeling) Islands",
+        "code": "CC"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Colombia",
+        "code": "CO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Comoros",
+        "code": "KM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Congo",
+        "code": "CG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Congo, The Democratic Republic of the",
+        "code": "CD"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Cook Islands",
+        "code": "CK"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Costa Rica",
+        "code": "CR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Cote D\"Ivoire",
+        "code": "CI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Croatia",
+        "code": "HR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Cuba",
+        "code": "CU"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Cyprus",
+        "code": "CY"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Czech Republic",
+        "code": "CZ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Denmark",
+        "code": "DK"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Djibouti",
+        "code": "DJ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Dominica",
+        "code": "DM"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Dominican Republic",
+        "code": "DO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Ecuador",
+        "code": "EC"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Egypt",
+        "code": "EG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "El Salvador",
+        "code": "SV"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Equatorial Guinea",
+        "code": "GQ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Eritrea",
+        "code": "ER"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Estonia",
+        "code": "EE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Ethiopia",
+        "code": "ET"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Falkland Islands (Malvinas)",
+        "code": "FK"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Faroe Islands",
+        "code": "FO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Fiji",
+        "code": "FJ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Finland",
+        "code": "FI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "France",
+        "code": "FR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "French Guiana",
+        "code": "GF"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "French Polynesia",
+        "code": "PF"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "French Southern Territories",
+        "code": "TF"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Gabon",
+        "code": "GA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Gambia",
+        "code": "GM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Georgia",
+        "code": "GE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Germany",
+        "code": "DE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Ghana",
+        "code": "GH"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Gibraltar",
+        "code": "GI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Greece",
+        "code": "GR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Greenland",
+        "code": "GL"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Grenada",
+        "code": "GD"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Guadeloupe",
+        "code": "GP"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Guam",
+        "code": "GU"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Guatemala",
+        "code": "GT"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Guernsey",
+        "code": "GG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Guinea",
+        "code": "GN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Guinea-Bissau",
+        "code": "GW"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Guyana",
+        "code": "GY"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Haiti",
+        "code": "HT"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Heard Island and Mcdonald Islands",
+        "code": "HM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Holy See (Vatican City State)",
+        "code": "VA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Honduras",
+        "code": "HN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Hong Kong",
+        "code": "HK"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Hungary",
+        "code": "HU"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Iceland",
+        "code": "IS"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "India",
+        "code": "IN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Indonesia",
+        "code": "ID"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Iran, Islamic Republic Of",
+        "code": "IR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Iraq",
+        "code": "IQ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Ireland",
+        "code": "IE"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Isle of Man",
+        "code": "IM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Israel",
+        "code": "IL"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Italy",
+        "code": "IT"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Jamaica",
+        "code": "JM"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Japan",
+        "code": "JP"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Jersey",
+        "code": "JE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Jordan",
+        "code": "JO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Kazakhstan",
+        "code": "KZ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Kenya",
+        "code": "KE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Kiribati",
+        "code": "KI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Korea, Democratic People\"S Republic of",
+        "code": "KP"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Korea, Republic of",
+        "code": "KR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Kuwait",
+        "code": "KW"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Kyrgyzstan",
+        "code": "KG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Lao People\"S Democratic Republic",
+        "code": "LA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Latvia",
+        "code": "LV"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Lebanon",
+        "code": "LB"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Lesotho",
+        "code": "LS"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Liberia",
+        "code": "LR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Libyan Arab Jamahiriya",
+        "code": "LY"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Liechtenstein",
+        "code": "LI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Lithuania",
+        "code": "LT"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Luxembourg",
+        "code": "LU"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Macao",
+        "code": "MO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Macedonia, The Former Yugoslav Republic of",
+        "code": "MK"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Madagascar",
+        "code": "MG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Malawi",
+        "code": "MW"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Malaysia",
+        "code": "MY"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Maldives",
+        "code": "MV"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Mali",
+        "code": "ML"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Malta",
+        "code": "MT"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Marshall Islands",
+        "code": "MH"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Martinique",
+        "code": "MQ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Mauritania",
+        "code": "MR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Mauritius",
+        "code": "MU"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Mayotte",
+        "code": "YT"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Mexico",
+        "code": "MX"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Micronesia, Federated States of",
+        "code": "FM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Moldova, Republic of",
+        "code": "MD"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Monaco",
+        "code": "MC"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Mongolia",
+        "code": "MN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Montserrat",
+        "code": "MS"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Morocco",
+        "code": "MA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Mozambique",
+        "code": "MZ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Myanmar",
+        "code": "MM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Namibia",
+        "code": "NA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Nauru",
+        "code": "NR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Nepal",
+        "code": "NP"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Netherlands",
+        "code": "NL"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Netherlands Antilles",
+        "code": "AN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "New Caledonia",
+        "code": "NC"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "New Zealand",
+        "code": "NZ"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Nicaragua",
+        "code": "NI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Niger",
+        "code": "NE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Nigeria",
+        "code": "NG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Niue",
+        "code": "NU"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Norfolk Island",
+        "code": "NF"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Northern Mariana Islands",
+        "code": "MP"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Norway",
+        "code": "NO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Oman",
+        "code": "OM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Pakistan",
+        "code": "PK"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Palau",
+        "code": "PW"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Palestinian Territory, Occupied",
+        "code": "PS"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Panama",
+        "code": "PA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Papua New Guinea",
+        "code": "PG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Paraguay",
+        "code": "PY"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Peru",
+        "code": "PE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Philippines",
+        "code": "PH"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Pitcairn",
+        "code": "PN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Poland",
+        "code": "PL"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Portugal",
+        "code": "PT"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Puerto Rico",
+        "code": "PR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Qatar",
+        "code": "QA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Reunion",
+        "code": "RE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Romania",
+        "code": "RO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Russian Federation",
+        "code": "RU"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "RWANDA",
+        "code": "RW"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Saint Helena",
+        "code": "SH"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Saint Kitts and Nevis",
+        "code": "KN"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Saint Lucia",
+        "code": "LC"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "code": "PM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "code": "VC"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Samoa",
+        "code": "WS"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "San Marino",
+        "code": "SM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Sao Tome and Principe",
+        "code": "ST"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Saudi Arabia",
+        "code": "SA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Senegal",
+        "code": "SN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Serbia and Montenegro",
+        "code": "CS"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Seychelles",
+        "code": "SC"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Sierra Leone",
+        "code": "SL"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Singapore",
+        "code": "SG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Slovakia",
+        "code": "SK"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Slovenia",
+        "code": "SI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Solomon Islands",
+        "code": "SB"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Somalia",
+        "code": "SO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "South Africa",
+        "code": "ZA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "South Georgia and the South Sandwich Islands",
+        "code": "GS"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Spain",
+        "code": "ES"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Sri Lanka",
+        "code": "LK"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Sudan",
+        "code": "SD"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Suriname",
+        "code": "SR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "code": "SJ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Swaziland",
+        "code": "SZ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Sweden",
+        "code": "SE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Switzerland",
+        "code": "CH"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Syrian Arab Republic",
+        "code": "SY"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Taiwan, Province of China",
+        "code": "TW"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Tajikistan",
+        "code": "TJ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Tanzania, United Republic of",
+        "code": "TZ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Thailand",
+        "code": "TH"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Timor-Leste",
+        "code": "TL"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Togo",
+        "code": "TG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Tokelau",
+        "code": "TK"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Tonga",
+        "code": "TO"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Trinidad and Tobago",
+        "code": "TT"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "Tunisia",
+        "code": "TN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Turkey",
+        "code": "TR"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Turkmenistan",
+        "code": "TM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Turks and Caicos Islands",
+        "code": "TC"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Tuvalu",
+        "code": "TV"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Uganda",
+        "code": "UG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Ukraine",
+        "code": "UA"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "United Arab Emirates",
+        "code": "AE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "United Kingdom",
+        "code": "GB"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "United States",
+        "code": "US"
+    ,"nativeorglobal": "native" },
+    {
+        "name": "United States Minor Outlying Islands",
+        "code": "UM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Uruguay",
+        "code": "UY"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Uzbekistan",
+        "code": "UZ"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Vanuatu",
+        "code": "VU"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Venezuela",
+        "code": "VE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Viet Nam",
+        "code": "VN"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Virgin Islands, British",
+        "code": "VG"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Virgin Islands, U.S.",
+        "code": "VI"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Wallis and Futuna",
+        "code": "WF"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Western Sahara",
+        "code": "EH"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Yemen",
+        "code": "YE"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Zambia",
+        "code": "ZM"
+    ,"nativeorglobal": "global" },
+    {
+        "name": "Zimbabwe",
+        "code": "ZW"
+    ,"nativeorglobal": "global" }
+]

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/chatsenderprofile"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chatsendername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#000"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/chatsendercontent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/sendermessagegui"
+                        android:backgroundTint="#FFFFFF"
+                        android:fontFamily="@font/juache"
+                        android:gravity="left"
+                        android:maxWidth="200dp"
+                        android:minWidth="30dp"
+                        android:text=""
+                        android:visibility="visible"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/sender_normal_chat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/normalchattingui"
+                        android:backgroundTint="#FFFFFF"
+                        android:fontFamily="@font/juache"
+                        android:gravity="left"
+                        android:maxWidth="200dp"
+                        android:minWidth="30dp"
+                        android:text=""
+                        android:visibility="invisible"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/chatwhatchercount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF00"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/chatpresenttime"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

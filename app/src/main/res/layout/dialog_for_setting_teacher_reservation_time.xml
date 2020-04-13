@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="Set the Available Class Date and Time!"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/container_for_timepicker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView632"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:fontFamily="@font/juache"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="Select Available Time !"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/border">
+
+                <TimePicker
+                    android:id="@+id/time_picker_for_availableclass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:timePickerMode="spinner"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/timepickerok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="70dp"
+                        android:fontFamily="@font/juache"
+                        android:text="ok"
+                        android:textColor="#1184E2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/timepickercancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/juache"
+                        android:text="cancel"
+                        android:textColor="#1184E2"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/time_pick_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/juache"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Available time :"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/available_time_txt"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/juache"
+                    android:gravity="center"
+                    android:textColor="#EC1919" />
+
+                <Button
+                    android:id="@+id/reset_time_btn"
+                    android:layout_width="63dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/roundbutton"
+                    android:backgroundTint="#F06B40"
+                    android:fontFamily="@font/juache"
+                    android:text="reset" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/container_for_datepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:fontFamily="@font/juache"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="Select Available Date !"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <DatePicker
+                    android:id="@+id/datepicker_for_availableclass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/datepickerok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="70dp"
+                        android:fontFamily="@font/juache"
+                        android:text="ok"
+                        android:textColor="#1184E2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/datepickercancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/juache"
+                        android:text="cancel"
+                        android:textColor="#1184E2"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/date_pick_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView63f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/juache"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Available  date :"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/available_date_txt"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/juache"
+                    android:gravity="center"
+                    android:textColor="#EC1919" />
+
+                <Button
+                    android:id="@+id/reset_date_btn"
+                    android:layout_width="63dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/roundbutton"
+                    android:backgroundTint="#F06B40"
+                    android:fontFamily="@font/juache"
+                    android:text="reset" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelbtn_for_available_class"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/juache"
+            android:background="@drawable/roundbuttonforteacher"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/okbtn_for_available_class"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/juache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok" />
+    </LinearLayout>
+
+</LinearLayout>

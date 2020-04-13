@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="2dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/std_profile_img_for_feed"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/border"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/std_name_for_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/std_rating_for_feed"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="0.0"
+            android:stepSize="0.5" />
+
+        <TextView
+            android:id="@+id/std_feedback_rating_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/juache"
+            android:textColor="#EE4141"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:text="0.0" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/std_feedback_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/juache"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:padding="5dp"
+        android:ems="5"
+        android:text="adasdasdasdasd\b\nadasdasdsadasd"
+        android:background="@drawable/border"
+        android:textColor="#CB464242"
+        android:textSize="15sp" />
+
+</LinearLayout>

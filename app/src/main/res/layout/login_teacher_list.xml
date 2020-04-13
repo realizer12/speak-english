@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D8D5D5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarfor_login_teacher_lis"
+        android:layout_width="365dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#1863c4"
+        android:popupTheme="@drawable/myclass"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="Logined  Teacher List"
+        android:textColor="#FFFCFC"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarfor_login_teacher_lis"
+        app:layout_constraintStart_toStartOf="@+id/toolbarfor_login_teacher_lis"
+        app:layout_constraintTop_toTopOf="@+id/toolbarfor_login_teacher_lis" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="344dp"
+        android:layout_height="562dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#D8D5D5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/loginteacherswuperefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#D8D5D5"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/layoutfor_teacher_login_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D8D5D5"
+                android:gravity="center_horizontal"
+
+                android:orientation="vertical"
+                android:visibility="visible">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnfortoatal"
+                        android:layout_width="69dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/roundbuttonforteacher"
+                        android:backgroundTint="#7E696967"
+                        android:fontFamily="@font/juache"
+                        android:text="전체" />
+
+                    <Button
+                        android:id="@+id/btnformytutor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbuttonforteacher"
+                        android:backgroundTint="#7E696967"
+                        android:fontFamily="@font/juache"
+                        android:text="내 튜터" />
+
+                    <Button
+                        android:id="@+id/btnforglobalteaccher"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbuttonforteacher"
+                        android:backgroundTint="#7E696967"
+                        android:fontFamily="@font/juache"
+                        android:text="Global" />
+
+                    <Button
+                        android:id="@+id/btnfornativeteacher"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbuttonforteacher"
+                        android:backgroundTint="#7E696967"
+                        android:fontFamily="@font/juache"
+                        android:text="Native" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textnologinteacherdatatxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/juache"
+                    android:gravity="center"
+                    android:text="해당 필터에 선생님 데이터가 없네요ㅠ\n\n화면을 당겨 새로고침을 해보세요!"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+
+                        android:id="@+id/recyvlerviewforloginteacher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="5dp">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutfor_refresh_noti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="234dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:fontFamily="@font/juache"
+                android:gravity="center"
+                android:text="@string/teacher_alert_no_onlined_teacher"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/noteachercancelactivitybtn"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundbutton"
+                    android:fontFamily="@font/juache"
+                    android:text="@string/teacher_onlinelist_cancel_btn"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/noteacherrefreshactivitybtn"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundbuttonforteacher"
+                    android:backgroundTint="#A4F55426"
+                    android:fontFamily="@font/juache"
+                    android:text="@string/teacher_onlinellist_refresh_btn"
+                    android:textSize="17sp" />
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

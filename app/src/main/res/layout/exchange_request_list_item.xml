@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border">
+
+    <TextView
+        android:id="@+id/txt_for_show_point"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@drawable/border1"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="20000 P"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_for_show_money"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/border1"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="3000 w"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_for_show_account_number"
+        android:layout_width="163dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/border1"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="카카오 234242524533"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txt_for_show_status"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/border1"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="Progress"
+        android:textColor="#EE0A58"
+        android:textSize="12sp" />
+</LinearLayout>

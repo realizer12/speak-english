@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+    <item android:title="채팅방 기능">
+        <menu>
+            <item
+                android:id="@+id/chatting_out_student_btn"
+                android:icon="@drawable/sayhellologoblack"
+                android:title="채팅방 나가기" />
+
+        </menu>
+    </item>
+    </group>
+
+</menu>

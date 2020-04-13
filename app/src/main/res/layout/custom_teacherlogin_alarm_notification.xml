@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#561863C5">
+
+    <ImageView
+        android:id="@+id/profileimgforteacherfcmalarm"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/teachernameforfcmalarm"
+            android:layout_width="270dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/juache"
+            android:text="ooo 선생님이 로그인 하였습니다."
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:text=" From Sayhellow"
+            android:textColor="#0C0101"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

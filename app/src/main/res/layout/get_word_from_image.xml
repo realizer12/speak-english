@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarfor_get_img_english_word"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#1863c4"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="185dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:text="Get Word From Image"
+            android:textColor="#F8F7F7"
+            android:textSize="19sp"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbarfor_get_img_english_word"
+            app:layout_constraintEnd_toEndOf="@+id/toolbarfor_get_img_english_word"
+            app:layout_constraintHorizontal_bias="0.479"
+            app:layout_constraintStart_toStartOf="@+id/toolbarfor_get_img_english_word"
+            app:layout_constraintTop_toTopOf="@+id/toolbarfor_get_img_english_word"
+            app:layout_constraintVertical_bias="0.384" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imgview_for_get_image_english_word"
+        android:layout_width="350dp"
+        android:layout_height="262dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        android:padding="2dp"
+        app:srcCompat="@drawable/img_error" />
+
+    <Button
+        android:id="@+id/btn_for_get_image_english_word"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/juache"
+        android:text="push this button to select image"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txtview_for_get_image_english_word"
+        android:layout_width="349dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/juache"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:hint="이미지를 고르면 이미지에서 추출된 \n\n영어 문장이 여기에 추출됩니다.\n\n 위 노란 버튼을 눌러주세요"
+        android:scrollbars="vertical"
+        android:textColor="#000"
+        android:textSize="18sp" />
+</LinearLayout>

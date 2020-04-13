@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/loginteachercardview"
+        android:layout_width="340dp"
+        android:layout_height="155dp"
+        app:cardBackgroundColor="#FDFDFD"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/loginteacherprofile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="-28dp"
+            app:srcCompat="@drawable/profilenone" />
+
+        <TextView
+            android:id="@+id/loginteachername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-53dp"
+            android:layout_marginTop="-40dp"
+            android:fontFamily="@font/juache"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/loginteacherflagimg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-72dp"
+            android:layout_marginTop="-13dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/loginteacherglobalornative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-35dp"
+            android:layout_marginTop="-15dp"
+            android:fontFamily="@font/juache"
+            android:text="TextView"
+            android:textColor="#4760EE" />
+
+        <TextView
+            android:id="@+id/loginteachershortsentence"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/juache"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/loginteacherstartclassbtn"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="#5CA1F7"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:text="수업 시작하기" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

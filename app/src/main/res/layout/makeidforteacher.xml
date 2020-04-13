@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1863c3">
+
+        <TextView
+            android:id="@+id/textView8"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/juache"
+            android:text="Teacher Sign up"
+            android:textAlignment="center"
+            android:textColor="#f6f4f4"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/emaillabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/juache"
+            android:text="Email"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/teacheremail"
+            android:layout_width="190dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/juache"
+            android:hint="  write your email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColorHint="#686565"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/checkemailbtn"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:height="30dp"
+            android:background="@drawable/stylebtnforcheckid"
+            android:fontFamily="@font/juache"
+            android:text="AUTH"
+            android:textColor="#f5f0f0"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mentforcheckedemailteacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/juache"
+        android:text="Authenticated email could be canceled if you update it"
+        android:textColor="#08792f"
+        android:textSize="15dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/juache"
+            android:id="@+id/passwdlabel"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:text="PW"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/teacherpasswd"
+            android:layout_width="190dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint=" write your password (english,number)"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#686565"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="326dp"
+        android:layout_gravity="center"
+        android:layout_height="43dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/passwdchecklabel"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/juache"
+            android:text="PW CHECK"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/teacherpasswdcheck"
+            android:layout_width="190dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="  repeat your password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="#000"
+            android:textColorHint="#686565"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/spinner"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/juache"
+            android:text="select your country"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/countryspinner"
+            android:layout_width="205dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="#0d0000" />
+
+        <TextView
+            android:id="@+id/nativeorglobal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/juache"
+            android:gravity="center_vertical"
+            android:hint="nothing"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#f00505"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/spinner3"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/juache"
+            android:text="global native"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/countryname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/countcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="326dp"
+        android:layout_height="43dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/enlgishnamelabel"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/juache"
+            android:text="Enligh   name"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="19dp" />
+
+        <EditText
+            android:id="@+id/teachername"
+            android:layout_width="281dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:fontFamily="@font/juache"
+            android:hint="  write your name in english!"
+            android:inputType="textPersonName"
+            android:text=""
+
+            android:textColorHint="#686565"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/teacherprofileimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:clickable="true"
+            android:padding="1dp"
+            app:srcCompat="@drawable/profilenone" />
+
+        <TextView
+            android:id="@+id/mentforprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/juache"
+            android:text="Touch above box to insert your Face imgae "
+            android:textColor="#000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/finalmaketeacheridbtn"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/roundbuttonforteacher"
+            android:fontFamily="@font/juache"
+            android:text="finish sign-up"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/maketeacheridcancel"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbuttonforteacher"
+            android:fontFamily="@font/juache"
+            android:text="cancel"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

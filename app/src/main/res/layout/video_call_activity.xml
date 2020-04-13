@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1863c4"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:text="Running time"
+            android:textColor="#F0EDED"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/class_time_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:text="1M  10s"
+            android:textColor="#F5F5F5"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:layout_marginBottom="5dp">
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/fullscreen_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="295dp" />
+
+        <TextView
+            android:id="@+id/textView_for_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#F57979"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="other"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <org.webrtc.SurfaceViewRenderer
+            android:id="@+id/pip_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#F57979"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Me"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_call_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:background="#242222"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <ImageButton
+            android:id="@+id/button_call_disconnect"
+            android:layout_width="47dp"
+            android:layout_height="38dp"
+            android:layout_alignStart="@+id/buttons_call_container"
+            android:layout_marginEnd="16dp"
+            android:background="@android:drawable/sym_call_missed"
+            android:contentDescription="@string/disconnect_call" />
+
+        <ImageButton
+            android:id="@+id/button_call_switch_camera"
+            android:layout_width="53dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:drawable/ic_menu_camera"
+            android:contentDescription="@string/switch_camera" />
+
+        <ImageButton
+            android:id="@+id/button_call_toggle_mic"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:drawable/ic_btn_speak_now"
+            android:contentDescription="@string/toggle_mic" />
+
+    </LinearLayout>
+</LinearLayout>

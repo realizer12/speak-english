@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="315dp"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:textSize="23sp"
+        android:padding="5dp"
+        android:fontFamily="@font/juache"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="Request Exchange point" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="300dp"
+        android:layout_height="390dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#0C0000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/juache"
+                android:text="My retention Point :"
+                android:textColor="#ffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_for_teacher_present_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/juache"
+                android:text="0 Point"
+                android:textColor="#ffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/juache"
+                android:text="Request exchange P :"
+                android:textColor="#ffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_for_exchange_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/juache"
+                android:text="0 Point"
+                android:textColor="#ffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/juache"
+                android:text="Money amount :"
+                android:textColor="#ffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_for_show_cash_amount_for_exchange_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/juache"
+                android:text="0 won(kr)"
+                android:textColor="#ffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/juache"
+                android:gravity="center"
+                android:text="Select Your Bank"
+                android:textColor="#ffff"
+                android:textSize="17dp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:background="#FDFCFC" />
+
+            <TextView
+                android:id="@+id/textView6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/juache"
+                android:gravity="center"
+                android:text="Write your account number"
+                android:textColor="#ffff"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/edittext_for_write_account_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:ems="10"
+                android:fontFamily="@font/juache"
+                android:gravity="center"
+                android:hint="Your bank account number"
+                android:inputType="number"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="#030000"
+                android:textColorHint="#7C7979"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="7dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:fontFamily="@font/juache"
+                android:paddingBottom="5dp"
+                android:text="Amount of point for exchange"
+                android:textColor="#ffff"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_for_plus_exchange"
+                    android:layout_width="43dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/roundbutton"
+                    android:backgroundTint="#FFFFFF"
+                    android:fontFamily="@font/juache"
+                    android:text="+"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/edittxt_for_point_exchange_amount"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/juache"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="0"
+                    android:textColor="#ffff" />
+
+                <Button
+                    android:id="@+id/btn_for_minus_exchange"
+                    android:layout_width="43dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/roundbutton"
+                    android:backgroundTint="#FFFFFF"
+                    android:fontFamily="@font/juache"
+                    android:text="-"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_for_cancel_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/juache"
+            android:padding="5dp"
+            android:text="cancel" />
+
+        <Button
+            android:id="@+id/btn_for_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbuttonforteacher"
+            android:fontFamily="@font/juache"
+            android:padding="5dp"
+            android:text="exchange" />
+    </LinearLayout>
+</LinearLayout>

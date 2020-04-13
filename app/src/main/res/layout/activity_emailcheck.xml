@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faf7f7"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1863c5"
+        >
+
+        <TextView
+            android:id="@+id/titleemailcheckpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/juache"
+            android:text="이메일 인증하기"
+            android:textAlignment="center"
+            android:textColor="#fcfcfc"
+            android:textSize="33dp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/emailAuth_time_counter"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="3:00"
+        android:textSize="70dp" />
+
+    <TextView
+        android:id="@+id/emailment1"
+        android:layout_width="326dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/juache"
+        android:text="3분안에 해당 이메일로 발송 된 인증 암호를 "
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/emailment2"
+        android:layout_width="326dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/juache"
+        android:text="확인 후 아래칸에 적어주세요."
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/emailAuth_number"
+        android:layout_width="292dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#aacef5"
+        android:fontFamily="@font/juache"
+        android:hint="인증 암호를 등록해 주세요"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/emailAuth_btn"
+
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/roundbutton"
+        android:text="OK"
+        android:textSize="22sp" />
+
+</LinearLayout>

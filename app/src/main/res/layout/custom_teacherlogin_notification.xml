@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:background="#561863C5"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:src="@drawable/sayhellologoblack" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="161dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="@string/loginnotification"
+        android:textColor="#0E0101"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnforonoffline"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/juache"
+        android:text="Make Off-Line"
+        android:textSize="12sp"
+        android:visibility="visible" />
+
+
+</LinearLayout>

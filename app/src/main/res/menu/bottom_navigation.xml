@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myclasstype"
+        android:enabled="true"
+        android:icon="@drawable/sayhellologoblack"
+        android:title="수업 피드백"/>
+
+    <item
+        android:id="@+id/tutortype"
+        android:enabled="true"
+        android:icon="@drawable/myclass"
+        android:title="수업 가기"/>
+
+    <!--<item-->
+        <!--android:id="@+id/classtype"-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@drawable/typeclass"-->
+        <!--android:title="수업 별"/>-->
+    <item
+        android:id="@+id/chattingtype"
+        android:enabled="true"
+        android:icon="@drawable/chatting"
+        android:title="채팅 목록"/>
+
+</menu>

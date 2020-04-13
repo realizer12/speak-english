@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/changeteacherinfo"
+            android:icon="@drawable/sayhellologoblack"
+            android:title="Update My profile" />
+        <item
+            android:id="@+id/setting_available_reservation_time"
+            android:icon="@drawable/sayhellologoblack"
+            android:title="Setting Reservation Time" />
+        <item
+            android:id="@+id/show_teacher_point"
+            android:icon="@drawable/sayhellologoblack"
+            android:title="Earning Graph" />
+        <item
+            android:id="@+id/exchange_teacher_point"
+            android:icon="@drawable/sayhellologoblack"
+            android:title="Exchange Earning Point" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/teacherchangepassword"
+                android:icon="@drawable/sayhellologoblack"
+                android:title="Change login Password" />
+            <item
+                android:id="@+id/teacherlogout"
+                android:icon="@drawable/sayhellologoblack"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

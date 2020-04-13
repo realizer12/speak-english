@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="2dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/teacher_profile_img_for_feed"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/border"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/teacher_name_for_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/juache"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/teacher_feedback_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/juache"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:padding="5dp"
+        android:ems="5"
+        android:text=""
+        android:background="@drawable/border"
+        android:textColor="#CB464242"
+        android:textSize="17sp" />
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.leedonghun.speakenglish">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <!-- 필요한 권한들  설정 -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 아래는 위험권한들 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/sayhellologoblack"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--에약한  수업  알람 실행시  노티 실행하는 브로드캐스트트-->
+       <receiver
+            android:name=".Broadcast_for_alarm_reservation_class"
+            android:enabled="true"
+            android:exported="true">
+
+        </receiver>
+        <!-- 카카오톡 메타데이터 -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.leedonghun.speakenglish.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"
+                tools:replace="android:resource" />
+        </provider>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+
+        <activity
+            android:name=".LoadingActivity"
+            android:theme="@style/loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- MAIN -> 시작할떄 가장 처음에쓰이는 엑티비티로  선언하는 거임. -->
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="로그인"></activity>
+        <activity android:name=".MakeidActivity"></activity>
+        <activity android:name=".MakeidForStudent"></activity>
+        <activity android:name=".MainactiviyForstudent"></activity>
+        <activity android:name=".MainactivityForTeacher"></activity>
+        <activity android:name=".EmailCheckPage"></activity>
+        <activity android:name=".MakeidForteacher"></activity>
+        <activity android:name=".InputEmailforfindpassword"></activity>
+        <activity android:name=".Inputsecurekeyforfindpw"></activity>
+        <activity android:name=".Changenewpasswrod"></activity>
+        <activity android:name=".StudentProfileUpdate"></activity>
+        <activity android:name=".TeacherProfileUpdate"></activity>
+        <activity android:name=".PreviewTeacherProfile"></activity>
+        <activity android:name=".RequestPermission"></activity>
+        <activity
+            android:name=".FaceDetectionCamera"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".FaceDetectionAlbum"></activity>
+        <activity android:name=".TeacherProfile"></activity>
+        <activity android:name=".TeacherChangePassWord"></activity>
+        <activity android:name=".Teacher_Profile_Photo_magnify"></activity>
+        <activity android:name=".Logined_Teacher_List"></activity>
+
+        <receiver android:name=".FragmentForTeacherClass$Broadcastreciever"></receiver>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".ServiceForGetChattingData"
+            android:stopWithTask="false"></service>
+
+        <activity
+            android:name=".ChattingRoomActivityForTeacher"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- 위코드 windowsoftinputmode는  eddittext가  키보드  관련 작동을 할때  키보드화면에  가려지지 않도록 조치한다. -->
+
+        </activity>
+        <activity
+            android:name=".ChattingRoomActivityForStudent"
+            android:windowSoftInputMode="adjustResize">
+
+            <!--
+            위코드 windowsoftinputmode에서 adjustResize  eddittext가  키보드  관련 작동을 할때  키보드화면에  가려지지 않도록 조치한다.
+            adjustPan은 ui가  키보드 위 로  ui가  다시 조정되어서  키보드 뒤로 사라지는 ui가 없어지도록 한는 것이다.
+            -->
+
+        </activity> <!-- 채팅방 이미지 눌러  확대한  엑티비티 -->
+        <activity android:name=".ChattingImageMagnfiedActivity">
+
+        </activity> <!-- 채팅방  비디오  재생 눌렀을때. 나오는 엑티비티-> 동엿앙 재생기능과 다운로드 됨. -->
+        <activity android:name=".ChattingVideoMagnifiedActivity">
+
+        </activity> <!-- 선생님 채팅방 프로필 변경하는 엑티비티 -->
+        <activity android:name=".TeacherChattingProfileActivity">
+
+        </activity> <!-- 각 채팅방에서 주고 받아 sqlite에 저장된  파일들을  한번에 볼수 있는 엑티비티이다. -->
+        <activity android:name=".ShowChattingFilesActivity">
+
+        </activity> <!-- 채팅방  모든  파일을  가지고 와서 보여주는 엑티비티이다. -->
+        <activity android:name=".ShowWholeMediaFilesInChattingRoom">
+
+        </activity> <!-- 오픈 채팅방 프로필 이미지  선생님이  수정할때 들어가는  엑티비티이다. -->
+        <activity android:name=".ActivityForRoomImageChange">
+
+        </activity> <!-- 내가  저장한  단어들이 모여있는  my dictionary 다 -->
+        <activity android:name=".ActivityForMyDictionary">
+
+        </activity> <!-- 단어 시험을 볼때 나오는  엑티비티이다. -->
+        <activity android:name=".ActivityForWordExam">
+
+        </activity> <!-- ocr로  이미지 속 단어 추출 하는 엑티비티이다. -->
+        <activity android:name=".ActivityForGetWordFromImage">
+
+        </activity> <!-- 화상 채팅 연결 중일시  나오는 엑티비티 -->
+        <activity android:name=".VideoCallConnectingActivity">
+
+        </activity> <!-- 비디오 수업  신청할때 사용되는  tcp연결 백그라운드에서 진행하는  서비스 -->
+        <service
+            android:name=".ServiceForTeacherGetVideoClassREQUEST"
+            android:stopWithTask="false">
+
+        </service> <!-- 비디오챗  하는 엑티비티 -->
+        <activity android:name=".VideoCallActivity">
+
+        </activity> <!-- 해당 예약 가능 수업 선생님이  정하는 엑티비티 -->
+        <activity android:name=".SettingReservationTime">
+
+        </activity>
+
+      <activity android:name=".SelectChargingPointAmountActivity">
+
+      </activity>   <!--학생 수업 포인트 사는 엑티비티-->
+
+
+      <!--카카오 페이  진행되는  webview가 있는 엑티비티이다-->
+      <activity android:name="KakaoPayActivity">
+
+      </activity>
+        <activity android:name="ShowEarningGraphActivity">
+
+        </activity>
+        <activity android:name="ExchangeEarningPoint">
+
+        </activity>
+    </application>
+
+</manifest>

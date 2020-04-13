@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/realscrollView3"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/realtoolbarteacherprofile"
+        app:layout_constraintVertical_bias="0.95">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="365dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/realimageView"
+                    android:layout_width="375dp"
+                    android:layout_height="360dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/study2" />
+
+                <TextView
+                    android:id="@+id/realtextView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="360dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="#c7000000" />
+
+                <TextView
+                    android:id="@+id/realnameandglobalcheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="189dp"
+                    android:fontFamily="@font/juache"
+                    android:text="Teacher Name/ Native or NOT"
+                    android:textColor="#ffffff"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:id="@+id/realprofileimage"
+                    android:layout_width="97dp"
+                    android:layout_height="97dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="88dp"
+                    app:srcCompat="@drawable/profilenone"
+                    tools:layout_editor_absoluteX="97dp"
+                    tools:layout_editor_absoluteY="91dp" />
+
+                <LinearLayout
+                    android:id="@+id/reallinearforbuttons"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="217dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/realtextView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/realtextView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <Button
+                            android:id="@+id/realstartclassbutton"
+                            android:layout_width="116dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/roundedittext"
+                            android:backgroundTint="#efecf490"
+                            android:fontFamily="@font/juache"
+                            android:text="Start Class" />
+
+                        <TextView
+                            android:id="@+id/realtextView30"
+                            android:layout_width="15dp"
+                            android:layout_height="match_parent" />
+
+                        <Button
+                            android:id="@+id/realmessengerbutton"
+                            android:layout_width="116dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/roundedittext"
+                            android:backgroundTint="#eff8abab"
+                            android:fontFamily="@font/juache"
+                            android:text="1:1 Messenger" />
+
+                        <TextView
+                            android:id="@+id/realtextView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/realtextView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="13dp" />
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/realopenchattingbutton"
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/roundedittext"
+                            android:backgroundTint="#ea76b1ed"
+                            android:fontFamily="@font/juache"
+                            android:text="Open Chatting Room" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/reallineaerforteacherinfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="99dp">
+
+                    <ImageView
+                        android:id="@+id/realimageViewformark"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        app:srcCompat="@drawable/sayhellologoblack"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:id="@+id/realonesentenceforstudent"
+                        android:layout_width="327dp"
+                        android:layout_height="35dp"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/juache"
+                        android:gravity="center_vertical"
+                        android:text="One sentence for  student"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        tools:ignore="RtlCompat" />
+
+                    <FrameLayout
+                        android:layout_width="27dp"
+                        android:layout_height="27dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="121dp"
+                        tools:ignore="RtlCompat">
+
+                        <ImageView
+                            android:id="@+id/realcheckedalarmlogin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:visibility="invisible"
+                            app:srcCompat="@drawable/checkedicon" />
+
+                        <ImageView
+                            android:id="@+id/realuncheckedalarmlogin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/uncheckicon" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/realtextView39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/realonesentenceforstudent"
+                        android:fontFamily="@font/juache"
+                        android:gravity="center"
+                        android:text="Getting alert for teacher login"
+                        android:textColor="#000"
+                        android:textSize="14dp"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:layout_marginLeft="6dp"
+                        android:id="@+id/realtextView22"
+                        android:layout_width="228dp"
+                        android:layout_height="23dp"
+                        android:layout_above="@+id/realonesentenceforstudent"
+                        android:layout_toEndOf="@+id/realimageViewformark"
+                        android:background="@drawable/roundedittext"
+                        android:backgroundTint="#c6f89696"
+                        android:fontFamily="@font/juache"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:text="One sentence about this class!"
+                        android:textColor="#000"
+                        android:textSize="15dp"
+                        tools:ignore="RtlCompat" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/realtextView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TabHost
+
+                    android:id="@+id/realtabhostforpreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/juache"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.widget.TabWidget
+                            android:id="@android:id/tabs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="#7487c7f2" />
+
+                        <FrameLayout
+                            android:id="@android:id/tabcontent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:id="@+id/realtab3"
+                                android:layout_width="match_parent"
+                                android:layout_height="520dp"
+                                android:minHeight="200dp"
+                                android:descendantFocusability="blocksDescendants"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_for_show_ment_for_explain_cancel_reserved_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:fontFamily="@font/juache"
+                                    android:gravity="center"
+                                    android:text="아래는 선생님 수업 예약한 리스트입니다.\n잊지말고 수업 들으세요!"
+                                    android:textColor="#0A0101"
+                                    android:visibility="visible" />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/recyclerview_for_show_reserved_time_list"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="visible">
+
+                                </androidx.recyclerview.widget.RecyclerView>
+
+                                <Button
+                                    android:id="@+id/btn_availabletime_list"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@drawable/roundbutton"
+                                    android:fontFamily="@font/juache"
+                                    android:gravity="center"
+                                    android:paddingLeft="30dp"
+                                    android:paddingRight="30dp"
+                                    android:text="000 선생님 수업 예약하기" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/realtab1"
+                                android:layout_width="match_parent"
+                                android:layout_height="520dp"
+                                tools:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/realwhoisteachermenttext"
+                                    android:layout_width="166dp"
+                                    android:layout_height="29dp"
+                                    android:layout_alignBottom="@+id/realimageView3"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_marginStart="59dp"
+                                    android:background="@drawable/roundedittext"
+                                    android:backgroundTint="#d1f89696"
+                                    android:fontFamily="@font/juache"
+                                    android:gravity="center"
+
+                                    android:text="who is alen tutor??"
+                                    android:textColor="#000"
+                                    android:textSize="15dp"
+                                    tools:ignore="RtlCompat" />
+
+                                <ImageView
+                                    android:id="@+id/realimageView3"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="21dp"
+                                    app:srcCompat="@drawable/sayhellologoblack"
+                                    tools:ignore="RtlCompat" />
+
+                                <TextView
+                                    android:id="@+id/realtextView35"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignStart="@+id/realcareertextbox"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_marginTop="87dp"
+                                    android:fontFamily="@font/juache"
+                                    android:text="Teacher career"
+                                    android:textColor="#000"
+                                    android:textSize="17dp"
+                                    tools:ignore="RtlCompat" />
+
+                                <TextView
+                                    android:id="@+id/realcareertextbox"
+                                    android:layout_width="321dp"
+                                    android:layout_height="152dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="119dp"
+                                    android:background="@drawable/stroketextview"
+                                    android:fontFamily="@font/juache"
+                                    android:gravity="center_vertical"
+                                    android:paddingLeft="5dp"
+                                    android:text="TextView"
+                                    android:textColor="#000"
+                                    android:textSize="13dp"
+                                    tools:ignore="RtlCompat" />
+
+                                <TextView
+                                    android:id="@+id/realtextView37"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignStart="@+id/realtextView35"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginBottom="187dp"
+                                    android:fontFamily="@font/juache"
+                                    android:text="Dear my student!"
+                                    android:textColor="#000"
+                                    android:textSize="17dp"
+                                    tools:ignore="RtlCompat" />
+
+                                <TextView
+                                    android:id="@+id/realdearstudenttextbox"
+                                    android:layout_width="321dp"
+                                    android:layout_height="152dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="25dp"
+                                    android:background="@drawable/stroketextview"
+                                    android:fontFamily="@font/juache"
+                                    android:gravity="center_vertical"
+                                    android:paddingLeft="5dp"
+                                    android:text="TextView"
+                                    android:textColor="#000"
+                                    android:textSize="13dp"
+                                    tools:ignore="RtlCompat" />
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:id="@+id/realtab2"
+                                android:layout_width="match_parent"
+                                android:layout_height="520dp"
+                                android:descendantFocusability="blocksDescendants"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="32dp"
+                                    android:layout_gravity="center"
+                                    android:orientation="horizontal"
+                                    android:paddingRight="10dp">
+
+                                    <TextView
+                                        android:id="@+id/textView58d"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:fontFamily="@font/juache"
+                                        android:paddingLeft="2dp"
+                                        android:text="Total  rating  Average"
+                                        android:textSize="18sp" />
+
+                                    <RatingBar
+                                        android:id="@+id/total_rating_bar_tab2"
+                                        style="@style/Widget.AppCompat.RatingBar.Small"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center" />
+
+                                    <TextView
+                                        android:id="@+id/totalrating_score_tab2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:fontFamily="@font/juache"
+                                        android:text="0.0"
+                                        android:textColor="#EC2525"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/list_for_class_feedback_tab"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:maxHeight="200dp"
+                                    android:minHeight="190dp" />
+                            </LinearLayout>
+
+                        </FrameLayout>
+                    </LinearLayout>
+                </TabHost>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/realtoolbarteacherprofile"
+        android:layout_width="365dp"
+        android:layout_height="50dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#1863c4"
+        android:popupTheme="@drawable/myclass"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/realframelayoytheart"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="@+id/realtoolbarteacherprofile"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toEndOf="@+id/realtextView21"
+        app:layout_constraintTop_toTopOf="@+id/realtoolbarteacherprofile"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/realwhiteheart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:srcCompat="@drawable/whiteheart3" />
+
+        <ImageView
+            android:id="@+id/realblackheartentire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/blackheart1" />
+
+        <ImageView
+            android:id="@+id/realwhiteheartentire"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/whiteheart1" />
+
+        <ImageView
+            android:id="@+id/realblackheart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/blackheart2"
+            tools:layout_editor_absoluteX="309dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/realtextView21"
+        android:layout_width="185dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:text="Teacher  Profile"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintStart_toStartOf="@+id/realtoolbarteacherprofile"
+        app:layout_constraintTop_toTopOf="@+id/realtoolbarteacherprofile"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

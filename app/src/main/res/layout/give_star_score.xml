@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView14"
+         android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/juache"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="How was the Class??"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="1.5"
+        android:stepSize="0.5" />
+
+    <EditText
+        android:id="@+id/give_feed_back"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:maxHeight="280dp"
+        android:maxLines="15"
+        android:minHeight="60dp"
+        android:gravity="center"
+        android:fontFamily="@font/juache"
+        android:hint="Give any words to Ur teacher here"
+
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/givestartsuccess"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbutton"
+            android:text="Finish" />
+    </LinearLayout>
+</LinearLayout>
